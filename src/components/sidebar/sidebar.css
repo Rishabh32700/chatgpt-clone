@@ -1,0 +1,52 @@
+.sidebar {
+  width: 17.5%;
+  /* border: 2px solid red; */
+  background-color: #212126;
+}
+
+.uppersection {
+  /* border: 2px solid yellow; */
+  height: 90%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.upperSectionUperPart {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  /* border: 2px solid green; */
+  margin-bottom: 0.5rem;
+  position: sticky;
+  top: 0;
+  background-color: #212126;
+  left: 0;
+}
+
+.lowerSection {
+  width: 92%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 10%;
+  margin: auto;
+  position: relative;
+}
+
+.lowerSection img {
+  width: 20%;
+}
+
+.lowerSection h2 {
+  font-size: 0.9rem;
+}
+
+.footerModal {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+
+  background-color: black;
+}
